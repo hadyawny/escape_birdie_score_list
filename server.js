@@ -17,5 +17,5 @@ dbConnection();
 bootstrap(app);
 
 app.listen(process.env.PORT || port, () => console.log(`Escape Birdie Server is listening on port ${process.env.PORT || port}!`));
-const keepAliveUrl = `https://jobboardbackend-u9zm.onrender.com`;
+const keepAliveUrl = `https://escape-birdie-score-list.onrender.com`;
 keepAlive(keepAliveUrl);
